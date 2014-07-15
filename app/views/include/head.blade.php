@@ -11,15 +11,9 @@
 <meta name="google-site-verification" content="">
 <!-- TODO: Добавить схему в верстку! -->
 <!-- Dublin Core Metadata : http://dublincore.org/ -->
-<meta name="DC.title" content="Project Name">
+<meta name="DC.title" content="{{{ $title }}}">
 <meta name="DC.subject" content="@yield('description')">
 <meta name="DC.creator" content="@yield('author')">
-<meta property="og:locale" content="ru_RU" />
-<meta property="og:type" content="object" />
-<meta property="og:title" content="Photoshop для кодера Archives - Zencoder" />
-<meta property="og:description" content="Phtoshop для кодера" />
-<meta property="og:url" content="http://zencoder.ru/category/coding/photoshop-for-coder/" />
-<meta property="og:site_name" content="Zencoder" />
 
 <!-- CSS Styles -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />

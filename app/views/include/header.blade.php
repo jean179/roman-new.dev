@@ -1,14 +1,14 @@
 <!-- Header -->
-<header class="row header">
+<header class="row header" itemscope itemtype="http://schema.org/Organization">
     <div class="small-12 large-9 columns">
-        <h1 class="site-title">{{ HTML::link('/','Гостевой дом «Роман»', array('title' => 'Гостевой дом «Роман» приглашает отдохнуть в Анапе')) }}</h1>
+        <h1 class="site-title">{{ HTML::link('/','Гостевой дом «Роман»', array('title' => 'Гостевой дом «Роман» приглашает отдохнуть в Анапе','itemprop' => 'name')) }}</h1>
         <h2 class="site-slogan">Отдохни в Анапе с семьёй на Чёрном море!</h2>
     </div>
     <div class="large-3 columns">
         <ul class="top-contacts">
-            <li><i class="fa fa-phone"></i> +7 (918) 668-22-54</li>
-            <li><i class="fa fa-phone"></i> +7 (918) 668-22-54</li>
-            <li><a href="mailto:jean179mail.ru"><span class="fa fa-envelope"></span> jean179@mail.ru</a></li>
+            <li><i class="fa fa-phone"></i> <span itemprop="telephone">+7 (918) 668-22-54</span></li>
+            <li><i class="fa fa-phone"></i> <span itemprop="telephone">+7 (918) 668-22-54</span></li>
+            <li><a href="mailto:staverale@mail.ru"><i class="fa fa-envelope"></i> <span itemprop="email">staverale@mail.ru</span></a></li>
         </ul>
     </div>
 </header>
