@@ -93,6 +93,10 @@ body {
 	color:#D54346;
 }
 
+.site-title a{
+    color:#D54346;
+}
+
 .site-slogan {
 	margin: 0 0 0 100px;
 	font-size: 1.5rem;
