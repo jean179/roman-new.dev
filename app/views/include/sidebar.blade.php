@@ -24,12 +24,21 @@
 
 <div class="sidebar-block">
     <h4 class="sidebar-block_title">Наши реквизиты:</h4>
-    <ul class="vcard bg_blue" style="width:100%;">
-        <li class="fn">Гостевой дом «Роман»</li>
-        <li><span class="zip">353440</span>, <span class="state">Краснодарский край</span> </li>
-        <li class="locality">город Анапа</li>
-        <li class="street-address">ул. Крымская, д. 30</li>
-        <li class="email"><a href="#">g.baltar@example.com</a></li>
+    <ul class="vcard bg_blue" style="width:100%;" itemscope itemtype="http://schema.org/Organization">
+        <li class="fn org"><span itemprop="name">Гостевой дом «Роман»</span></li>
+        <li itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span class="zip" itemprop="postalCode">353440</span>,
+            <span class="state">Краснодарский край</span> </li>
+        <li class="adr locality" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="addressLocality">город Анапа</span></li>
+        <li class="adr street-address" itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+            <span itemprop="streetAddress">ул. Крымская, д. </span></li>
+        <li class="tel"><i class="fa fa-phone"></i>
+            <span itemprop="telephone" >+7 (918) 668-22-54</span></li>
+        <li class="tel"><i class="fa fa-phone"></i>
+            <span itemprop="telephone">+7 (918) 668-22-54</span></li>
+        <li class="email">
+            <a href="mailto:staverale@mail.ru"><i class="fa fa-envelope"></i> <span itemprop="email">staverale@mail.ru</span></a></li>
     </ul>
 </div>
 

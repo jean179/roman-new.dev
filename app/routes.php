@@ -11,40 +11,12 @@
 |
 */
 
-Route::get('/', function()
+Route::get('/', function ()
 {
     return View::make('pages.home')
         ->with('title', 'Гостевой дом «Роман»');
 });
 
-Route::get('/about', function()
-{
-    return ('about');
-});
 
-
-Route::get('/rooms', function()
-{
-    return ('rooms');
-});
-
-
-Route::get('/bron', function()
-{
-    return ('bron');
-});
-
-Route::get('/gallery', function()
-{
-    return ('gallery');
-});
-
-Route::get('/reviews', function()
-{
-    return ('reviews');
-});
-
-Route::get('/contacts', function()
-{
-    return ('contacts');
-});
+// Выводим статические страницы
+Route::get('/{slug}.html', 'PageController@getPage');
